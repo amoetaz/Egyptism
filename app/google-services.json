@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "171781489483",
+    "firebase_url": "https://egyptism-project.firebaseio.com",
+    "project_id": "egyptism-project",
+    "storage_bucket": "egyptism-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171781489483:android:4a7d20b8d5577666",
+        "android_client_info": {
+          "package_name": "com.project.moetaz.egyptism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171781489483-igba38oq1cm2d53v501q9198pntoqnuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.moetaz.egyptism",
+            "certificate_hash": "9218ebef9db949944fc33cc1387082d8d5706030"
+          }
+        },
+        {
+          "client_id": "171781489483-9ti31fihtllq21u5rg3bchu25ah8mc95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDditL1nRPISyIeqPAqKC0fiP5QCMe8VIw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171781489483-9ti31fihtllq21u5rg3bchu25ah8mc95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

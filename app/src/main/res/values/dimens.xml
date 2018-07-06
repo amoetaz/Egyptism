@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTop_RV">54dp</dimen>
+    <dimen name="site_image_height">350dp</dimen>
+    <dimen name="site_desc_padding">12dp</dimen>
+    <dimen name="site_desc_textsize">13sp</dimen>
+    <dimen name="fab_pressed_value">12dp</dimen>
+    <dimen name="fab_normal_elevation">6dp</dimen>
+    <integer name="anim_duration_medium">300</integer>
+
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_header_padding">15dp</dimen>
+    <dimen name="site_collapsing_height">350dp</dimen>
+    <dimen name="row_radius">5dp</dimen>
+    <dimen name="row_margin">5dp</dimen>
+    <dimen name="row_height">240dp</dimen>
+    <dimen name="header_height">80dp</dimen>
+    <dimen name="fab_marginend">25dp</dimen>
+    <dimen name="recyclerview_region_margintop">54dp</dimen>
+    <dimen name="nav_view_height">270dp</dimen>
+    <dimen name="appbar_elevation">4dp</dimen>
+    <dimen name="start_image_width">180dp</dimen>
+    <dimen name="start_image_height">180dp</dimen>
+    <dimen name="textsize_widget">12sp</dimen>
+    <dimen name="site_cardview_marginbottm">16dp</dimen>
+    <dimen name="site_cardview_elevation">5dp</dimen>
+    <dimen name="site_textviewmargintop">12dp</dimen>
+    <dimen name="row_cardview_elevation">2dp</dimen>
+    <dimen name="row_image_height">0dp</dimen>
+    <dimen name="row_textview_size">25sp</dimen>
+    <dimen name="row_textview_height">0dp</dimen>
+    <dimen name="widget_textviewpadding">15dp</dimen>
+    <dimen name="widget_lineear_paddingstart">5dp</dimen>
+    <dimen name="widget_lineear_paddingend">5dp</dimen>
+    <dimen name="widget_textviewmargintop">30dp</dimen>
+</resources>

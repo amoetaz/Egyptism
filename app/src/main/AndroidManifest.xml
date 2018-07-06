@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.moetaz.egyptism">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".utilies.appController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAnsSUUVNQYvnh9ou0H6zqp7Wblaj3HiaI" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".ui.activities.MainActivity" />
+        <activity android:name=".ui.activities.RegionActivity" />
+        <activity android:name=".ui.activities.FavActivity" />
+        <activity android:name=".ui.activities.startActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activities.MapActivity" />
+        <activity android:name=".ui.activities.AboutActivity" />
+
+        <provider
+            android:name=".provider.SitesProvider"
+            android:authorities="com.project.moetaz.egyptism"
+            android:exported="false" />
+
+        <receiver android:name=".widget.SiteWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/site_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

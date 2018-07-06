@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.moetaz.egyptism.ui.activities.FavActivity"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <FrameLayout
+        android:tag="fra"
+        android:layout_weight="1"
+        android:name="com.project.taha.dicoveregypt.ui.fragments.FavFragment"
+        android:id="@+id/fdetail"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:id="@+id/fsite"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

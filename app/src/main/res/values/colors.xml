@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00ab90</color>
+    <color name="colorPrimaryDark">#047e6b</color>
+    <color name="colorAccent">#ff5891</color>
+    <color name="site_desc_color">#000</color>
+    <color name="widget_background">#09C</color>
+    <color name="wid_title_background">#aaDEDFDE</color>
+    <color name="sitefra_background">#fff</color>
+</resources>

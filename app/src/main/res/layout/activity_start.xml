@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.startActivity">
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="@dimen/start_image_width"
+        android:layout_height="@dimen/start_image_height"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_launcher_logo" />
+</RelativeLayout>
