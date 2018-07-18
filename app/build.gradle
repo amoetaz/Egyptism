@@ -1,7 +1,15 @@
 apply plugin: 'com.android.application'
 
-android {
 
+android {
+    signingConfigs {
+        config {
+            keyAlias 'moetaz'
+            keyPassword 'password'
+            storeFile file("$rootDir/keyStore.jks")
+            storePassword 'password'
+        }
+    }
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
@@ -16,7 +24,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-
+            signingConfig signingConfigs.config
         }
     }
     packagingOptions {
