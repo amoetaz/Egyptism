@@ -3,6 +3,7 @@ package com.project.moetaz.egyptism.ui.activities;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.view.GravityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.transition.ChangeBounds;
@@ -53,7 +54,8 @@ public class RegionActivity extends AppCompatActivity implements SiteListener {
 
             Slide slideTransition = null ;
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-                slideTransition = new Slide(Gravity.END);
+                slideTransition = new Slide(GravityCompat.getAbsoluteGravity(GravityCompat.END
+                        , getResources().getConfiguration().getLayoutDirection()));
                 slideTransition.setDuration(getResources().getInteger(R.integer.anim_duration_medium));
 
                 ChangeBounds changeBoundsTransition = new ChangeBounds();
